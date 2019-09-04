@@ -5,7 +5,6 @@ FROM centos
 MAINTAINER test
 
 #ADD 添加本地文件到镜像
-ADD pcre-8.37.tar.gz /usr/local/src
 ADD nginx-1.9.3.tar.gz /usr/local/src
 
 #RUN 在镜像中执行命令
